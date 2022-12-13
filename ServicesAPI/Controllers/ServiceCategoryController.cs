@@ -43,6 +43,13 @@ public class ServiceCategoryController : ControllerBase
         return Ok(await _serviceCategoryService.Get());
     }
     
+    [HttpGet]
+    [Route("GetServices")]
+    public async Task<ActionResult> GetServices(Guid id)
+    {
+        return Ok(await _serviceCategoryService.GetServices(id));
+    }
+    
     [HttpPatch]
     public async Task<ActionResult> Update(ServiceCategory serviceCategory)
     {

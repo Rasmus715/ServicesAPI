@@ -1,5 +1,4 @@
 using Dapper;
-using Npgsql;
 using ServicesAPI.Data;
 
 namespace ServicesAPI.Migrations;

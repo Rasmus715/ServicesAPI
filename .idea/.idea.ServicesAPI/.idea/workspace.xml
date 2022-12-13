@@ -6,7 +6,26 @@
     <projectFile profileName="IIS Express">ServicesAPI/ServicesAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="673ab8ff-cc14-4ed0-9b14-9d24f61cc3cc" name="Changes" comment="" />
+    <list default="true" id="673ab8ff-cc14-4ed0-9b14-9d24f61cc3cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ServicesAPI/Controllers/ServiceController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServicesAPI/Services/IServiceService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServicesAPI/ViewModels/Service/CreateServiceViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServicesAPI/ViewModels/Service/ServiceViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServicesAPI/ViewModels/ServiceCategories/ServiceCategoryWithServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ServicesAPI/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ServicesAPI/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ServicesAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ServicesAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicesAPI/Controllers/ServiceCategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ServicesAPI/Controllers/ServiceCategoryController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicesAPI/Migrations/Database.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ServicesAPI/Migrations/Database.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicesAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ServicesAPI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicesAPI/Services/IServiceCategoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ServicesAPI/Services/IServiceCategoryService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicesAPI/bin/Debug/net7.0/ServicesAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ServicesAPI/bin/Debug/net7.0/ServicesAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicesAPI/bin/Debug/net7.0/ServicesAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ServicesAPI/bin/Debug/net7.0/ServicesAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicesAPI/obj/Debug/net7.0/ServicesAPI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ServicesAPI/obj/Debug/net7.0/ServicesAPI.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicesAPI/obj/Debug/net7.0/ServicesAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ServicesAPI/obj/Debug/net7.0/ServicesAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicesAPI/obj/Debug/net7.0/ServicesAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ServicesAPI/obj/Debug/net7.0/ServicesAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicesAPI/obj/Debug/net7.0/ref/ServicesAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ServicesAPI/obj/Debug/net7.0/ref/ServicesAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicesAPI/obj/Debug/net7.0/refint/ServicesAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ServicesAPI/obj/Debug/net7.0/refint/ServicesAPI.dll" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,12 +41,17 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d7dbf2d91157970da8221a96352bc5a781fe0b730ed7d1525211eb4b81cec/IMigrationRunner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b3430f75cbe448939fd28b2113b99db7ae0000/31/08bfc7ae/IDisposable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/58e753b49452a9b2ca6a4a8ffb5fdf4e88633db5cdc6516141328567148779/NpgsqlConnection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b3430f75cbe448939fd28b2113b99db7ae0000/e2/138304e0/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IoPOaokHdk76xeEv2fNCK5sUv4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -95,15 +119,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670844932497</updated>
-      <workItem from="1670844946862" duration="12571000" />
+      <workItem from="1670844946862" duration="18728000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

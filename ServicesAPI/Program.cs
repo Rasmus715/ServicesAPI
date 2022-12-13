@@ -11,6 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<DapperContext>();
 builder.Services.AddScoped<Database>();
 builder.Services.AddScoped<IServiceCategoryService,ServiceCategoryService>();
+builder.Services.AddScoped<IServiceService, ServiceService>();
 
 builder.Services.AddLogging(c => c.AddFluentMigratorConsole())
     .AddFluentMigratorCore()

@@ -3,5 +3,6 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/ServicesAPI/Migrations/Database.cs" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/ServicesAPI/Services/IServiceCategoryService.cs" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/ServicesAPI/Services/IServiceService.cs" dialect="PostgreSQL" />
   </component>
 </project>
